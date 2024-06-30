@@ -4,12 +4,6 @@
     padding: 15px;
 }
 
-@media screen and (max-width: 780px) {
-    tr {
-        font-size: 15px;
-    }
-}
-
 .tabla1 {
     max-width: max-content;
     margin: auto;
