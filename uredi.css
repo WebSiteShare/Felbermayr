@@ -44,6 +44,10 @@ h1 {
     min-width: 48px;
 }
 
+tr td span {
+    color: red;
+}
+
 #faverk {
     max-width: 40px;
 }
