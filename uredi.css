@@ -1,0 +1,47 @@
+﻿body {
+    background: linear-gradient(rgb(15, 84, 228), rgb(255, 255, 255)) no-repeat;
+    background-attachment: fixed;
+    padding: 15px;
+}
+
+.tabla1 {
+    max-width: max-content;
+    margin: auto;
+}
+
+h1 {
+    color: rgb(239, 245, 59);
+}
+
+.vorne, .rechts, .gleise {
+    border-bottom: dotted 5px white;
+    width: 100%;
+}
+
+.gleise  tr, .vorne tr, .rechts tr{
+    display: inline-block;
+    padding: 2px;
+    margin-bottom: 20px;
+    vertical-align: top;
+    border-right: solid 1px;
+    width: 47px;
+    height: 80px;
+}
+
+    .gleise tr th, .vorne tr th, .rechts tr th {
+        display: block;
+        border-bottom: solid 1px;
+        border-color: black;
+        color: rgb(239, 245, 59);
+        text-shadow: 1px 1px 2px grey;
+    }
+
+.gleise tr td, .vorne tr td, .rechts tr td {
+    display: block;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+#faverk {
+    max-width: 40px;
+}
