@@ -4,12 +4,6 @@
     padding: 15px;
 }
 
-@media screen and (max-width: 1440px) {
-    tr {
-        font-size: 14px;
-    }
-}
-
 h1 {
     color: rgb(239, 245, 59);
 }
@@ -41,7 +35,6 @@ h1 {
     display: block;
     color: white;
     text-shadow: 1px 1px 2px black;
-    min-width: 48px;
 }
 
 tr td span {
