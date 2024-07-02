@@ -19,7 +19,7 @@ h1 {
     vertical-align: top;
     border-right: solid 1px;
     height: 80px;
-    min-width: 50px;
+    min-width: 51px;
 }
 
     .gleise tr th, .vorne tr th, .rechts tr th {
@@ -28,20 +28,16 @@ h1 {
         border-color: black;
         color: rgb(239, 245, 59);
         text-shadow: 1px 1px 2px grey;
-        width: 100%;
+        min-width: 51px;
     }
 
 .gleise tr td, .vorne tr td, .rechts tr td {
     display: block;
     color: white;
     text-shadow: 1px 1px 2px black;
-    width: 100%;
+    min-width: 51px;
 }
 
 tr td span {
     color: red;
-}
-
-.dugacko {
-    width: 100px;
 }
