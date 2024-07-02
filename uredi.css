@@ -38,3 +38,7 @@ h1 {
 tr td span {
     color: red;
 }
+
+.dugacko {
+    min-width: 100px;
+}
