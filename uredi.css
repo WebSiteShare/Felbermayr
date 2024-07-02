@@ -19,6 +19,7 @@ h1 {
     vertical-align: top;
     border-right: solid 1px;
     height: 80px;
+    min-width: 50px;
 }
 
     .gleise tr th, .vorne tr th, .rechts tr th {
