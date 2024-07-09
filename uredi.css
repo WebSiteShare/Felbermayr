@@ -4,8 +4,38 @@
     padding: 15px;
 }
 
-.kazalo {
-    opacity: 0.01;
+.kazalo1 {
+    opacity: 0.1;
+    position: fixed;
+    right: 20;
+    top: 20;
+    width: fit-content;
+    padding: 1px 20px;
+    background-color: lightgray;
+    line-height: 2px;
+    height: 50px;
+    overflow: hidden;
+    transition: height 0.5s, opacity 1s, border-radius 1s, box-shadow 1s;
+    border-radius: 20px;
+}
+
+    .kazalo1:hover {
+        height: 300px;
+        opacity: 1;
+        border-radius: revert;
+        box-shadow: 1px 1px 10px black;
+    }
+
+.kazalo1 h2 {
+    text-align: center;
+}
+
+.kazalo1 span {
+    color: rgb(196, 21, 21);
+}
+
+/*.kazalo {
+    opacity: 0.07;
     background: lightgrey;
     text-shadow: 1px 1px 2px black;
     position: fixed;
@@ -19,8 +49,8 @@
 }
 
 .kazalo:hover {
-    opacity: 0.9;
-}
+    opacity: 0.7;
+}*/
 
 h1 {
     color: rgb(239, 245, 59);
