@@ -1,7 +1,7 @@
 ﻿body {
     background: linear-gradient(rgb(15, 84, 228), rgb(255, 255, 255)) no-repeat;
     background-attachment: fixed;
-    padding-top: 20px;
+    margin-top: 25px;
 }
 
 .halle-link, .fl-link {
