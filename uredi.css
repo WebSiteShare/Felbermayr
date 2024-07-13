@@ -1,14 +1,32 @@
 ﻿body {
     background: linear-gradient(rgb(15, 84, 228), rgb(255, 255, 255)) no-repeat;
     background-attachment: fixed;
-    padding: 15px;
+}
+
+.halle-link, .fl-link {
+    opacity: 0.5;
+    position: fixed;
+    right: 220px;
+    top: 15px;
+}
+
+    .halle-link a, .fl-link a {
+        text-decoration: none;
+        color: rgb(239, 245, 59);
+        background: linear-gradient(to right, rgb(15, 84, 228), rgb(255, 255, 255));
+        padding: 15px;
+        border: solid 1px black;
+    }
+
+.halle-link:hover, .fl-link:hover {
+    opacity: 0.9;
 }
 
 .kazalo1 {
     opacity: 0.1;
     position: fixed;
-    right: 20;
-    top: 20;
+    right: 20px;
+    top: 20px;
     width: fit-content;
     padding: 1px 20px;
     background-color: lightgray;
@@ -17,6 +35,7 @@
     overflow: hidden;
     transition: height 0.5s, opacity 1s, border-radius 1s, box-shadow 1s;
     border-radius: 20px;
+    z-index: 2;
 }
 
     .kazalo1:hover {
@@ -56,34 +75,34 @@ h1 {
     color: rgb(239, 245, 59);
 }
 
-.vorne, .rechts, .gleise, .links {
+.vorne, .vorne-tür, .rechts, .gleise, .links, .halle1, .halle6, .halle8 {
     border-bottom: dashed 5px rgb(239, 245, 59);
     width: 100%;
 }
 
-.gleise  tr, .vorne tr, .rechts tr, .links tr{
-    display: inline-block;
-    padding: 2px;
-    margin-bottom: 20px;
-    vertical-align: top;
-    border-right: solid 1px;
-    height: 80px;
-    min-width: 40px;
-}
-
-    .gleise tr th, .vorne tr th, .rechts tr th, .links tr th {
-        display: block;
-        border-bottom: solid 1px;
-        border-color: black;
-        color: rgb(239, 245, 59);
-        text-shadow: 1px 1px 2px grey;
+    .gleise tr, .vorne tr, .vorne-tür tr, .rechts tr, .links tr, .halle1 tr, .halle6 tr, .halle8 tr {
+        display: inline-block;
+        padding: 2px;
+        margin-bottom: 20px;
+        vertical-align: top;
+        border-right: solid 1px;
+        height: 80px;
+        min-width: 40px;
     }
 
-.gleise tr td, .vorne tr td, .rechts tr td, .links tr td {
-    display: block;
-    color: white;
-    text-shadow: 1px 1px 2px black;
-}
+        .gleise tr th, .vorne tr th, .vorne-tür tr th, .rechts tr th, .links tr th, .halle1 tr th, .halle6 tr th, .halle8 tr th {
+            display: block;
+            border-bottom: solid 1px;
+            border-color: black;
+            color: rgb(239, 245, 59);
+            text-shadow: 1px 1px 2px grey;
+        }
+
+        .gleise tr td, .vorne tr td, .vorne-tür tr td, .rechts tr td, .links tr td, .halle1 tr td, .halle6 tr td, .halle8 tr td {
+            display: block;
+            color: white;
+            text-shadow: 1px 1px 2px black;
+        }
 
 tr td span {
     color: red;
