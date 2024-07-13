@@ -1,11 +1,11 @@
 ﻿body {
     background: linear-gradient(rgb(15, 84, 228), rgb(255, 255, 255)) no-repeat;
     background-attachment: fixed;
-    margin-top: 25px;
+    padding: 5px;
 }
 
 .tabla1 {
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .halle-link, .fl-link {
